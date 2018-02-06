@@ -1,2 +1,2 @@
-#unofficial GCECT website
+# unofficial GCECT website
 currently maintained by @gurditsbedi
