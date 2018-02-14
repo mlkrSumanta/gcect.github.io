@@ -1,161 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-  <title>Big O</title>
-
-  <link rel="stylesheet" href="css/reveal.css">
-  <link rel="stylesheet" href="css/theme/night.css">
-
-  <!-- Theme used for syntax highlighting of code -->
-  <link rel="stylesheet" href="css/highlightjs/solarized-dark.css">
-
-  <!-- Custom styles -->
-  <link rel="stylesheet" href="css/styles.css">
-
-  <!-- Printing and PDF exports -->
-  <script>
-    var link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.type = 'text/css';
-    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-    document.getElementsByTagName('head')[0].appendChild(link);
-  </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BigO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <style>
+        .card-image-icon {
+            font-size: 8rem;
+            padding: 2rem 0;
+            color: #209cee;
+        }
+    </style>
 </head>
 
 <body>
-  <div class="reveal">
-    <div class="slides">
-      <section>
-        <h2>
-          <span class="yellow">Warning, </span>
-          <span class="red">Danger, </span>
-        </h2>
-        <small class="blue">just to gather attention</small>
-        <br>
-        <video src="https://media.giphy.com/media/3oEjHOWlyBm3IE1p7O/giphy.mp4" autoplay=true width="800"></video>
-        <br />
-        <h1 class="yellow shake-horizontal" onclick="Reveal.next()">></h1>
-      </section>
-
-      <section>
-        <h2 class="red">Disclaimer</h2>
-        <h3>If you don't like programming, </h3>
-        <h3>you can close this browser tab. </h3>
-        <h3>This is TOTAL GEEK stuff.</h3>
-      </section>
-
-      <section>
-        <h2>Well, what are you+us going to do?</h2>
-        <div class="fragment fade-in">
-          <h3>Share knowledge about computer science stuff</h3>
-          <h3>from new technologies to old cool stuff.</h3>
+    <section class="hero is-info is-bold is-medium">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title is-size-1">
+                    BigO
+                </h1>
+                <h2 class="subtitle">
+                    The coding club of
+                    <a href="http://gcect.ac.in/" target="_blank">GCECT</a>
+                </h2>
+            </div>
         </div>
-      </section>
+    </section>
 
-      <section>
-        <h3> What you+us will be doing?</h3>
-        <video src="https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.mp4" autoplay=true loop=true></video>
-      </section>
+    <br>
 
-      <section>
-        <h4> and making ... </h4>
-        <video src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.mp4" autoplay=true loop=true></video>
-        <h4>stuff</h4>
-      </section>
+    <section class="container">
+        <h1 class="title">Upcoming Events: </h1>
+        <div class="columns features">
+            <div class="column is-4">
+                <div class="card">
+                    <div class="card-image has-text-centered">
+                        <i class="fa fa-code card-image-icon"></i>
+                    </div>
+                    <div class="card-content ">
+                        <div class="content ">
+                            <h3 class="title has-text-centered">Intro to programming</h3>
+                            <p>A small take to teach some stuff of programming.</p>
+                            <p>
+                                <strong>For: </strong>1st Year Students.</p>
+                            <p>
+                                <a href="./intro_to_programming.html">
+                                    <i class="fa fa-info-circle"></i> More Information.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <br>
 
-      <section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-        <h2 class="yellow"> Awesome, I'm in.*</h2>
-        <h2>What to do now?</h2>
-        <h2>Where to register?</h2>
-        <h1>*calm down.</h1>
-      </section>
-
-      <section>
-        <small>The Formal stuff.</small>
-        <h2 class="yellow">Who can join?</h2>
-        <ul>
-          <li>If you understand why there is a
-            <code class="red">for</code> loop, and an
-            <br>
-            <code class="red">if</code> statement. a.k.a You know some programming.</li>
-          <li>You like to learn programming languages and develop
-            <br> stuff using it.</li>
-          <li>You somewhat liked `C` language, but don't hate it.</li>
-          <li>You don't hate typing.</li>
-        </ul>
-      </section>
-
-
-      <section>
-        <h3 class="yellow">FAQ</h3>
-        <ul>
-          <li class="red">Who can apply?</li>
-          <li class="green">Anyone. Provided your are GCECTian.</li>
-        </ul>
-      </section>
-
-      <section>
-        <h1>Okay awesome 😎,</h1>
-        <h1>I'm still in.</h1>
-        <h1>Register
-          <a href="https://goo.gl/forms/pPJrjtjFGGKK6sKj1"> here</a>.</h1>
-      </section>
-
-      <section>
-        <h1>Questions?</h1>
-        <p>and</p>
-        <h1>Regular Updates.</h1>
-        <h2>At
-          <a href="https://t.me/joinchat/AgcMtE1805lIkiq1RhVTKQ">this group</a>.</h2>
-        <small>Yup, group is on telegram, but its worth it.</small>
-      </section>
-
-
-    </div>
-  </div>
-
-  <script src="lib/js/head.min.js"></script>
-  <script src="js/reveal.js"></script>
-
-  <script>
-    // More info about config & dependencies:
-    // - https://github.com/hakimel/reveal.js#configuration
-    // - https://github.com/hakimel/reveal.js#dependencies
-
-    const height = window.innerHeight;
-    const width = window.innerWidth;
-
-    options = {
-      controls: false,
-      history: true,
-      dependencies: [
-        // { src: 'plugin/markdown/marked.js' },
-        // { src: 'plugin/markdown/markdown.js' },
-        // { src: 'plugin/notes/notes.js', async: true },
-        // {
-        //   src: 'plugin/highlight/highlight.js',
-        //   async: true,
-        //   callback: function () {
-        //     hljs.configure({
-        //       tabReplace: ' ',
-        //       useBR: false,
-        //       languages: ['haskell']
-        //     });
-        //     hljs.initHighlightingOnLoad();
-        //   }
-        // }
-      ]
-    };
-    if (width > height) {
-      options["width"] = width;
-      options["height"] = height;
-    }
-    Reveal.initialize(options);
-  </script>
+    <footer class="footer ">
+        <div class="container ">
+            <div class="content has-text-centered">
+                <p>made with
+                    <i class="fas fa-code has-text-info "></i> by
+                    <a href="https://gurditsbedi.github.io/ ">@gurditsbedi</a>
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
